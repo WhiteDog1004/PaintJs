@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding-top: 50px;
+}
+
+.canvas {
+	width: 700px;
+	height: 700px;
+	-webkit-box-shadow: 5px 5px 9px -2px rgba(0, 0, 0, 0.54);
+	box-shadow: 5px 5px 9px -2px rgba(0, 0, 0, 0.54);
+	border-radius: 20px;
+}
+.controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls .controls_btns {
+    margin-bottom: 30px;
+}
+.controls .controls_btns button {
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 0px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.controls_colors {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.controls_colors .controls_color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.controls_colors .controls_color:hover {
+    -webkit-box-shadow: 5px 5px 9px -2px rgba(0, 0, 0, 0.54);
+	box-shadow: 5px 5px 9px -2px rgba(0, 0, 0, 0.54);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    transition: all 0.25s;
+}
+
+.controls .controls_range {
+    margin-bottom: 20px;
+}
+
+#jsNowColor {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 32%;
+    bottom: 90px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
