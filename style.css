@@ -63,13 +63,20 @@ body {
 .controls .controls_range {
     margin-bottom: 20px;
 }
+.bottomBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 #jsNowColor {
     width: 75px;
     height: 75px;
-    position: absolute;
-    left: 32%;
-    bottom: 90px;
     border-radius: 50%;
-    transform: translate(-50%, -50%);
+    margin: 10px;
+}
+.modeFill.on {
+    background-color: black !important;
+    color: white !important;
 }
