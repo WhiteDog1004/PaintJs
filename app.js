@@ -9,6 +9,7 @@ canvas.height = CANVAS_SIZE;
 
 ctx.fillStyle = "#ffffff";
 ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+ctx.fillStyle = "#000000";
 
 ctx.strokeStyle = INITIAL_COLOR;
 ctx.fliiStyle = INITIAL_COLOR;
